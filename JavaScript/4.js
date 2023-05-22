@@ -2,4 +2,4 @@
 
 //destructuring means the various methods of assigning values to different variables
 
-//closures and hoisting can be used in javascript
+//closures and hoisting can be used in javascripts
