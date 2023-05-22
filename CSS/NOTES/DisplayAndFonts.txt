@@ -1,0 +1,82 @@
+->Display is the way the element will
+be adjust itself on the website
+
+    display:<value>;
+
+    if we set the value of the display to none the element will not be shown on the screen. It'll not occupy any space. 
+
+    there are mainly four types of display:
+
+    display:inline;
+    the elements takes the space only which is required by it's content. setting width, margin(top-bottom), padding(top-bottom), height is not allowed. we can set the border though. another element can come after this element
+
+    display: block;
+    This display is inplemented by default. element starts from completely new and takes the whole space horizontally present in the website, it doesn't allow any element in it's space and doesn't go to any other element's space. It leaves a new line next to it
+
+    display: inline-block;
+    it has same properties as inline but setting of height, width, padding (top-bottom), margin (top-bottom) is allowed.
+
+    in case of inline display the left right margin padding is applicable.
+
+
+->Display none vs visibility hidden
+
+    if we set the value of display to none the element is completely removed from the web. but if we set the value of it's visibility as hidden then it's content+color is removed the space remains occupied
+
+->text alingment inside an element:
+
+    text-align: <value>
+
+    value can be center, start, end, justify
+
+->text decoration:
+
+    text-decoration: <value_of_side(top/bottom)_to_be_underlined> <style_type> <color>;
+
+    value can be -- underline, overline, underline dotted etc for more information: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+
+->text transform is used to transform the text in desired manner:
+
+    text-transform:<value>
+
+    values can be --- capatalize, uppercase, lowercase
+
+    capatalize capatilizes the first letter of first word of a sentence
+
+->line height(separation between two lines) can be set using:
+
+    line-height: <value_in_px>
+
+->font change of text in a element:
+
+    font-family:
+    <font_names_separated_by_commas_in_order_of_preference>;
+
+    we give multiple preferences for font name because, it might possible the most preferred font is not in our computer.
+
+    if font name consist of multiple words then enclose that inside inverted commas.
+
+    mostly we use google font to build a website. we place the link to the font in our head tag and then copy the command displayed in the 
+
+->changing the size of the font:
+
+    font-size: <value_in_px>
+
+->changing the thickness of the font:
+
+    font-weight: <value>;
+
+    700 is the value for bold, 400 is the value for normal.
+    rather than writing value in number we can directly write "bold" or "normal".
+
+->changing the style of the font:
+
+    font-style:<value>;
+    
+    value can be italic, oblique, oblique <value_in_deg>deg,
+
+->font variant is can be used to get different variants of the same font:
+
+    font-variant: <value>;
+
+    mdn reference:https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant

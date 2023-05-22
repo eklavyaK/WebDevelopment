@@ -1,0 +1,123 @@
+->Heading tag:
+
+    <h1> tag is used for heading
+    There are 6 types of heading which can be included ranging from h1 to h6. h1 is the largest heading tag, h6 is the smallest heading tag.
+
+->Paragraph tag:
+
+    <p> tag is used for paragraph writing
+
+
+->Attributes in a html tag is used to add more information about the functioning of the tag
+Syntax of attributes: <name of the attribute>="<value of the attribute>"
+
+->Anchor tag:
+
+    <a href="wesite address"> name of the link </a>        //anchor tag is used for adding a hyperlink in the website
+    //href is the a attribute that contains the value of the link. The value of the link can also be an image
+
+    another attribute which we can give here is target="_<values of target>"
+    if(target="_main") opens the link in a new tab
+    if(target="_main") opens the link in a new tab
+    if(target="_main") opens the link in a new tab
+
+->Image tag:
+
+    <img src="link to the image" alt="Error message displayed when image failed to load">
+
+    width, height attributes are used to set the dimensions of the image in pixels
+    we can do both in one attribute called "style"
+
+->Adding a new line:
+
+    <br> tag acts line enter key. It adds a new line to the website. Wherever <br> tag is present, it simply adds new line
+
+->Adding a horizontal divider or line:
+
+    <hr> tag draws a horizontal line the position where it is positioned
+
+->to add superscript or subscript:
+
+    <sub>content to be in subscript</sub>          //for subscript
+    <sup>content to be in superscript</sup>        //for superscript
+
+->To display everything as it is on the website (i.e. to have everything identical to what it is written body):
+
+    <pre> content to be displayed as it is </pre>
+
+    this pre tag preserves the extra spaces, changes the line wherever it has been changed
+
+->The the body of a website has 3 parts - header, footer, main content
+
+    <header> The thing to be written in header </header>
+    <main> the the main content is written here </main>
+    <footer> the footer is written here </footer>
+
+    we use these tags for the website to get detected by the search engine
+
+->The main tag has sum subparts like article, section, aside
+
+    <section> something </section> tag is used to write a section of a webpage. which has it's own importance
+    <article> somthing </article> tag  defines an independent self-contained content in a document
+    <aside> something </aside> tag is used to write something which is not related to the topic like ads
+
+->Sub tags of header:
+
+    inside header we can write <nav> </nav> tag which will contain navigation links there to visit on the website
+    like Home, Support, Contacts, Faqs etc
+
+-> <div> </div> tag is used to divide a section in many divisions where we can work on each division independently
+i.e. format. Div always starts in new line and always ends with a new line. Another section elements cannot 
+be written in the same line as div element. This type of elements are called block elements.
+
+-><span> </span> unlike div it a inline element. We can write two or more spans in same line.
+
+->List in html:
+
+    we can insert list type content in the html pages using list tags
+
+    <ul> tag stands for unordered list means the list won't have numbering
+    attribute type="circle" is used to define the type of bullets of the list other types include square, disc by default it is circle
+
+    <ol> tag stands for ordered list means that list will have numbered elements
+    attribute type="1" is used to define the type of bullets of the list other types include A(capital alphabetical), a(small case alphabetical),
+    I(capital roman letter), i(small case roman letters) by default it is in number format
+    
+->Table in html:
+
+    to insert the table in the website we use <table> contents of the table </table>
+
+    to add row in the table <tr> contents of the row </tr> tag is used
+
+    to add data to the row we use <td> data </td> tag 
+
+    to add header to the table the first row will have <th> </th> instead of <td> to add the row
+
+    we enclose the header of the table in <thead> </thead> which can be used for formatting
+
+    we enclose the body of the table in <tbody> </tbody> which can be used for formatting
+
+->Every element has unique "id". Element here represents a tag. Class is the name of a group. Multiple elements can be of same class.
+
+->creating a form in html
+
+    to create a form we use <form> contents of the form </form> tag
+    
+    the action="" attribute of the form contains the file which will manage the input data of the form
+
+    we can take input using <input> tag
+    
+    the type attribute of the input tag determines the type of input to be accepted like for ex: text, file, selection, button pressing
+
+    The value attribute specifies the value of an <input> element.
+    The value attribute is used differently for different input types:
+    For "button", "reset", and "submit" - it defines the text on the button
+    For "text", "password", and "hidden" - it defines the initial (default) value of the input field
+    For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is sent on submit)
+    Note: The value attribute cannot be used with <input type="file">
+
+    name attribute is the name of the input element. 
+
+    <label> input element </label> attribute is used for a particular id input. input process can be activate just by clicking the label of the input
+    label can also define the name of the input at the same type can be used to make input process easier as for small checkboxes label can be used for
+    clicking

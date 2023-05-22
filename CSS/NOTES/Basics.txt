@@ -1,0 +1,82 @@
+->CSS stands for Cascading style sheets. So CSS works to format and design a website, it cannot make website work.
+
+->DOM stands for document object model. Basically a hierarchy of the tags and information in them. Like html tag is the root
+tag then body and head are second most important tags and so on.
+
+->A class is the group where multiple elements can belong to same class and each element can belong to multiple classes.
+
+->To format a id we do that under <style> </style> tag in head section. To format a id we start with symbol 
+#<id_name>{formatting elements }
+
+->To format a class we do that under <style> </style> tag in head section. To format a class we start with symbol
+.<class_name>{formatting elements}
+
+->To format a tag we just write the tag name and enclose the formatting in curly brackets
+
+->linking a css file with html file we do <link rel="stylesheet" href="<name_of_css_file.css>">
+
+->to add background color we do
+
+    background-color: <color_name>;
+
+->to modify text color we do
+
+    color: <color_name>;
+
+->we can do the same formatting to many classes, tags, ids in same line by writing them separated with commas just before
+the opening curly bracket of the formatting block.
+
+->we can select a class of a particular type of element by using:
+
+    element_type<classname>{}
+
+->*is used as universal selector
+
+->In CSS, a margin is the space around an element's border, while padding is the space between 
+an element's border and the element's content.
+
+->rgb color code is the values of the intensity of red, green, and blue colors
+
+->Hex code is of six characters initiated by a #. first two letters are values of red color in hexadecimal. third and fourth
+are of green and fifth and sixth are of blue.
+
+->to set image in background in a
+element we do:
+
+    background-image: url("<url_of_image>")
+
+    //url can be local or on internet
+
+->to make the image not repeat we do:
+
+    background-repeat: <value>
+
+    //check the functions of different values of background repeat here: https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
+
+->to determine the job of the image in background we use background-size:
+
+    background-size: <value>;
+
+    //if value is contain then complete image is contained in background. no part of it is cut.
+    //if value is cover then image covers the background. if image size is larger than the backround size, then only some part of the image is used to cover it other wise image is zoomed and covers the background.
+    //functions of other values like auto can be seen on mdn reference
+    //to completely fit the image in the background we can give the value same as background values: <width_in_px> <height_in_px>. Mostly we'll be using this
+
+->to determine the position of the image on the background of the element:
+
+    background-position: <value>;
+
+    //value can be of different types like top, top left, center, center top, etc. we can also give the values in percentage.
+    //to know more about the values we can see the mdn reference.
+
+->to determine whether background will move with content of the the element we do:
+
+    background-attachment: <value>;
+
+    //value of the background-attachment can be local(moves with the content), fixed(doesn't move with the content), scroll(moves on scrolling)
+
+->writing the shorthand for background, i.e. writing all the properties in one line:
+
+    backrgound: <color> <image> <repeat> <attachment> <position>
+
+    //these should follow the given order. If any one of the properties is absent then browser moves one and checks for the next property. I mean we can skip any property if we don't want to apply but we cannot change the order.

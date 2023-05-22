@@ -1,0 +1,169 @@
+<!--index.html is a special file name of the file which is presented when website root address is searched i.e. the first page-->
+<!--writing lorem<number> generates ramdom number of words in the website-->
+<!--tags in html contain content in between them-->
+<!--element is a html part which includes opening tag+content+closing tag-->
+
+<!--HTML is a case-insensitive language-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="witdth=device-width,initial-scale=1.8">
+    <title>First Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>Home support Help Feedback</nav>
+    </header>
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+    <br><br>
+    <hr><br>
+    <!--Example of absolute link i.e. will work on any computer because website is hosted on the internet-->
+    <a href="https://twitter.com" target="_main">Twitter</a><br>
+    <!--Example of relative link i.e. link that takes you to the place which is present on your  server only-->
+    <a href="/HTML/first.html">First</a><br>
+    <hr>
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" width="200" height="100"
+        alt="Tree image"><br>
+    <hr>
+    <!--we can also add local files of server-->
+    <img src="\HTML\ProgrammingProfile.jpg" width="512" height="256" alt="Green Sorrounding"><br><br><br>
+    <hr>
+    <br><br><br>
+    <b>This is a bold text</b> <br>
+    <i>This is written in italic</i><br>
+    <u>now this is underlined</u> <br>
+    <b><u><i>Let's do all of them together for this text.</i></u></b><br>
+    <hr><br><br>
+    <h2>Writing equations:</h2>
+    <h3>Pythagoreas Theorem:</h3>
+    <p>(a<sub>hypotenuse</sub>)<sup>2</sup> = (b<sub>base</sub>)<sup>2</sup> + (c<sub>perpendicular</sub>)<sup>2</sup>
+    </p>
+    <br>
+    <h3>Formation of Carbon Dioxide:</h3>
+    <p>C + O<sub>2</sub> ===> CO<sub>2</sub></p> <br>
+    <hr>
+    <pre>
+Once upon a time there lived. His name was Vikramaditya. He was very kind and wise. He always worked for the
+public good. Once he decided to take a tour of his kingdom in disguise to see whether there is any person who
+is still unhappy or poor in his kingdom.
+            
+        He dressed as a peasant and masked his face with heavy beard and moustaches. While he was touring around
+he hills, he found a sage who was in deep meditation. He went and sat before the sage or muni. He didn't disturb
+the muni. Muni didn't even notice him when he sat down before him.
+
+        when muni woke up from his meditation he saw the king and asked the reason for his arrival. King first
+humbled down at muni's feet and asked him a method to know whether all the people of that kingdom are genuinely
+happy or not in the rule of the king. Then muni suggested something to the king and he followed to get his answer.
+        </pre>
+    <hr>
+    <ul type="disc">
+        <li>monday</li>
+        <li>saturday</li>
+        <li>friday</li>
+        <li>wednesday</li>
+        <li>sunday</li>
+    </ul>
+    <ol type="1">
+        <i>
+            <li>hello</li>
+        </i>
+        <li>hi</li>
+        <li>hey</li>
+        <li>what's up</li>
+        <li>hellow</li>
+    </ol>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Section</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ayush</td>
+                <td>5</td>
+                <td>Science</td>
+                <td>C</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chandrashekhar</td>
+                <td>5</td>
+                <td>Maths</td>
+                <td>B</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rahul</td>
+                <td>5</td>
+                <td>English</td>
+                <td>E</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Preety</td>
+                <td>5</td>
+                <td>Hindi</td>
+                <td>A</td>
+                <td>75</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form action="form.php">
+        <h3><u>Application for Project</u></h3>
+        <label>Enter your name<input type="text" id="asd;lkfkjj" value="ex: Eklavya" name="name:"><br>
+        </label><br>
+        Upload your ID card:<input type="file" id="asd;lkfksj" name="Upload your ID card:"><br>
+        <h3>Select your branch</h3>
+        <label for="asd;lasdasdffkfkjj">
+            <!--this label is for below input only with the id mentioned in for-->
+            <input type="radio" id="asd;lasdasdffkfkjj" value="CSE" name="Branch"> CSE <br>
+        </label>
+        <label for="asd;lasdfasdakfkjj">
+            <!--if two or more radio buttons with different ids have same name then only one can be selected-->
+            <input type="radio" id="asd;lasdfasdakfkjj" value="ECE" name="Branch"> ECE <br>
+        </label>
+        <label for="asd;laasdfadssdfkfkjj">
+            <input type="radio" id="asd;laasdfadssdfkfkjj" value="EE" name="Branch"> EE <br>
+        </label>
+        <label for="asd;lasdfdfkfkjj">
+            <input type="radio" id="asd;lasdfdfkfkjj" value="ME" name="Branch"> ME <br>
+        </label>
+        <h3>Are you from 2nd year?</h3>
+        <input type="Button" id="asd;lksafaskjj" value="YES" name="yn">
+        <input type="Button" id="asd;lsdfdkfkjj" value="NO" name="yn">
+        <h3>Select the boxes which is applicable for you.</h3>
+        <label for="cgpa">
+            <input type="checkbox" id="cgpa" name="cgpa">cgpa is above 7
+        </label><br>
+        <label for="stay">
+            <input type="checkbox" id="stay" name="stay">I'm staying during summer break
+        </label><br>
+        <label for="sureity">
+            <input type="checkbox" id="sureity" name="sureity">Won't quit the project in between
+        </label><br>
+        <label for="Other work">
+            <input type="checkbox" id="Other work" name="Other work">Not involved in other project
+        </label><br>
+    </form>
+</body>
+
+</html>

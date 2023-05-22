@@ -1,0 +1,13 @@
+*alt+arrow keys to move the line up or down
+
+ctrl+/ is used to comment out a line of bunch of lines in html
+
+keeping alt pressed and clicking the mouse to another position inserts another cursor. both will work together at the same time.
+This trick can be used when we want to change same thing at two different positions at the same time
+
+*shift + enter to automatically create and place the cursor to the next line. This method is highly useful
+because we don't need to cross all the tags before pressing enter
+
+*shift+alt+j to find the next selection
+
+*ctrl+f2(fn+f2) to select all the occurrances of the selection while placing a cursor to the end of each such occurrance

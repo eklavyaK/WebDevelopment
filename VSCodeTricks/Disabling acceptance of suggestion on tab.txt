@@ -1,0 +1,10 @@
+goto keyboard shortcuts and on top right corner click JSON which will open keybindings.jason
+then paste this code there.
+
+/*******************************************************************************************************************************/
+{
+    "key": "tab",
+    "command": "-acceptSelectedSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus"
+}
+/*******************************************************************************************************************************/

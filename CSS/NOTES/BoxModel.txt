@@ -1,0 +1,54 @@
+->the structure of a element in a website:
+
+    the innermost part of the element is it's content. Just outside it's content is padding, then border, then the outermost part is margin.
+
+->Setting up margin, padding values:
+
+    margin-top: <value_in_px>;
+    margin-bottom: <value_in_px>;
+    margin-right: <value_in_px>;
+    margin-left: <value_in_px>;
+
+    to set all margin, values in one line we do:
+
+    margin: <top_val> <right_val> <bottom_val> <left_val>;             //in clockwise direction
+
+    if we give two values in margin then it takes first one for top-bottom, second for left-right;
+
+->setting up border values
+
+    border-color: <value>;
+    border-style: <value>;
+    border-width: <value_in_px>;
+
+    there are different types of styles for borders like for ex:-
+    solid(most common), dotted, dashed, groove, double
+
+    border shorthand:
+
+    border: <width_val> <*style_val> <color_val>;
+
+    we can also have style shorthand:
+    
+    border-style: solid dashed groove 
+
+    setting up border corner radius:
+
+    border-radius:<value_in_px>;
+
+    more information: https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+->margin collapse:
+
+    when two margins overlap, the equivalent margin is the maximum of the two.
+
+->box sizing determines the size of the child element whether it's content is to be set according the size of the parent element or according to our given values.
+
+    if we set the width to 100%, then it will reflect to the width of the parent element border. Yeah but we should remember that it doesn't reflect on the margin. Only content+padding+border of the child width will be = content+border+padding of the parent. The margin is still applicable to the child.
+
+    same goes for the height;
+
+    to know more about box sizing we can refer to this website:
+    https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+    if there is no parent container then the changes will be reflected according to the width of the screen. Which causes responsiveness.

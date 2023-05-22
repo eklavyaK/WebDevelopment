@@ -1,0 +1,82 @@
+body{
+    background-image:url("https://www.whoa.in/download/green-nature-beautiful-wallpaper");
+    background-size:1600px 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#first{
+    background-color: red;
+    color: black;
+}
+#third, #second{
+    background-color: rgb(7, 7, 66);
+    color: white;
+}
+.meet{
+    color: white;
+    Height:100px;
+    width: 600px;
+    background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: 240px 40px;
+    background-position: center;
+    background-attachment: scroll;
+    border-style: solid dashed groove double;
+    border-width: 10px;
+    border-color: rgb(67, 21, 203);
+    border-radius: 20px;
+}
+#fourth{
+    height: 2400px;
+    background-color: rgb(58, 58, 78);
+    width:700px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-transform: capatalize;
+    font-style: oblique 40deg;
+}
+.me{
+    background-color: rgb(3, 3, 15);
+    padding: 6px;
+    border: 5px solid rgb(205, 15, 15); 
+    border-radius: 13px;
+}
+#box{
+    color: antiquewhite;
+    border:10px solid red;
+    height: 500px;
+    width: 500px;
+    background: darkblue scroll;
+    font-weight: bold;
+}
+#box2{
+    color:black;
+    padding: 30px;
+    height: 200px;
+    width:100%;
+    margin: 5px 0px;
+    border: 5px solid black;
+    background: white scroll;
+    box-sizing: border-box;
+    text-align: justify;
+    text-decoration:underline overline wavy blue;
+    font-size: 1.2em;
+}
+.innline{
+    display:inline;
+    background: grey;
+    border: 3px solid green;
+    font-style: oblique -10deg;
+}
+.vblock{
+    display:inline-block;
+    line-height: 20px;
+    width: 200px;
+    padding: 30px;
+    height: 100px;
+    border: 2px solid rgb(24, 6, 6);
+    background: green;
+    text-decoration:underline;
+    font-variant: small-caps;
+}

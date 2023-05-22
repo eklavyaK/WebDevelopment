@@ -1,0 +1,5 @@
+->other units of size other than pixels
+
+    em: relative to parent element font size. font-size: 3em; means that the font size of the element is 3 times the font size of the parent element
+
+    rem:
